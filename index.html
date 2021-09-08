@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- Conexion con bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- Conexion para mostrar iconos bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+        <div class="video-fondo">
+        <video autoplay loop>
+            <source src="https://res.cloudinary.com/sebaspatig/video/upload/v1631119420/Videos/Animus_fo7h6r.mp4">
+            <source src="https://res.cloudinary.com/sebaspatig/video/upload/v1631119415/Videos/Animus_nvtqcl.mov">
+            <source src="https://res.cloudinary.com/sebaspatig/video/upload/v1631119383/Videos/Animus_ugp5wd.webm">
+        </video>
+        </div>
+
+        <div class="audio-fondo">
+            <audio loop controls>
+                <source src="https://res.cloudinary.com/sebaspatig/video/upload/v1631131203/audios/eziofamily_01_audpfh.wav">
+                <source src="https://res.cloudinary.com/sebaspatig/video/upload/v1631131168/audios/eziofamily_01_nbvp14.mp3">
+                <source src="https://res.cloudinary.com/sebaspatig/video/upload/v1631131174/audios/eziofamily_02_i6zqhv.ogg">
+    
+            </audio>
+        </div>
+        <br>
+    <main>
+        <!-- <div class="container"> -->
+            <div class="area-contenedor">
+                <!-- <div class="col-md-8 col-xs-8 col-lg col-sm-8"></div> -->
+                <img src="/Inicio_sesion/imgs/AC copy.png" class="rounded-circle" alt="Imagen de inicio" width="70px" height="85px">
+                <h1>Por favor inicia Sesión</h1>
+                <p>Accede a tu cuenta de AC Brotherhood para que tus favoritos, contraseñas, historial y otras opciones de configuración estén en todos tus dispositivos</p>
+                    <div class="ingreso-datos">
+                        <label for="email">Direccion de correo</label>
+                        <input type="email" class="form-control" id="email" placeholder="nombre@example.com">
+                    </div>
+                    <div class="ingreso-datos">
+                    <label for="Contraseña">Contraseña</label>
+                    <input type="password" class=form-control name="Contraseña" id="password" placeholder="Contraseña">
+                    <br>
+                    <label> 
+                    <input type="checkbox" name="Recuerdame" id="Recuerdame">Mantener sesión iniciada
+                    </label>
+                    <br>
+                    </div>
+                    <div class="boton-Inicio">
+                        <a name="ingresar" id="singin" class="btn btn-primary" href="/Inicio_sesion/pagina2.html" role="button">Ingresar</a>
+                    </div>
+                
+
+            </div>
+
+        <!-- </div> -->
+        </main>
+
+    </body>
+</html>
